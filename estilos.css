@@ -1,0 +1,158 @@
+/* ESTILADO GENERAL */
+body {
+	background: #d8d8d8;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1em;
+}
+p {
+	font-weight: normal;
+	font-style: serif;
+	font-size: 1.1em;
+}
+ul {
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-weight: normal;
+	font-size: 1.5em;
+	color:#6e6e6e;
+}
+h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+/* ESTILADO PANEL IZQUIERDO FIXED */
+#divFixed {
+	background: #d8d8d8;
+	width: 25%;
+	margin:.3% 5% 1% 5%;
+	float:left;
+	position:fixed;
+}
+#divFoto {
+	width: 100%;
+	border-radius: 40% 10% 40% 10%;
+	background: white;
+}
+#idFoto {
+	width:57%;
+	padding: 10% 10% 10% 23%;
+}
+
+a {
+	text-decoration:none;
+}
+
+.botonesPanelIzquierdo {
+	
+	padding: 0.1%;
+	width: 99%;
+	margin: 4% 1% 4% 1%;
+	border-radius: 1em;
+	background: white;
+	text-align: center;
+	clear:both;
+}
+
+.botonesPanelIzquierdo:hover {
+	padding: 0%;
+	background-color: #D8F6CE;
+	border: 1px solid black;
+	box-sizing: border-box;
+
+}
+
+/* ESTILADO PANEL DERECHO MOVIL */
+#panelDerecho {
+	width: 66%;
+	background: #d8d8d8;
+	text-align: left;
+	float:right;
+	margin:.5% 1% 1% 5%;
+}
+
+#quienSoy{
+	width: 98%;
+	border-radius: 1em;
+	background: white;
+	padding: 1% 1% 1% 1%;
+	
+}
+#miNombre {
+	font-size: 4.5em;
+	font-style: bold;
+	font-family: 'Dancing Script', cursive;
+	text-shadow:3px 3px #848484; 
+}
+#formacion {
+	width: 98%;
+	margin-top: 3%;
+	border-radius: 1em;
+	background: white;
+	padding: 1% 1% 1% 1%;
+}
+#experiencia {
+	width: 98%;
+	margin-top: 3%;
+	border-radius: 1em;
+	background: white;
+	padding: 1% 1% 1% 1%;
+}
+
+/* SECCION PORFOLIO PANEL DERECHO */
+
+#divPortfolio {
+	margin-bottom: 500px;
+}
+
+#portfolio {
+	width: 98%;
+	margin-top: 4%;
+	margin-bottom:1%;
+	border-radius: 0.5em;
+	background: white;
+	padding: 2% 1% 2% 1%;
+}
+
+.FotoBotonPortfolio {
+	width:100%;
+}
+
+.aUtlimo {
+	box-sizing: border-box;
+	width: 23%;
+	float: left;
+	border-radius: 0.5em;
+	background: white;	
+	text-align: center;
+	margin: 1% 1% 2% 1%;
+}
+
+.aUtlimo:hover  {
+	margin: 0% 0.9% 1.9% 0.9%;
+	box-sizing: border-box;
+	background-color: #D8F6CE;
+	border: 1px solid black;
+}
+
+.aUtlimoDerecha {
+	box-sizing: border-box;
+	width: 23%;
+	float: left;
+	border-radius: 0.5em;
+	background: white;	
+	text-align: center;
+	margin: 1% 0% 2% 1%;
+}
+
+.aUtlimoDerecha:hover {
+	margin: 0% 0% 3% 0.9%;
+	box-sizing: border-box;
+	background-color: #D8F6CE;
+	border: 1px solid black;
+}
